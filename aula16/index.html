@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        div.border {
+            height: 150px;
+        }
+    </style>
+    <title>Visibilidade</title>
+</head>
+<body>
+    <div class="p-5 bg-danger"></div>
+    <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-lg-none d-block m-3 bg-success"></div>
+    <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+
+    <hr>
+
+    <header class="p-3 text-bg-dark d-print-none">
+        <div class="container">
+            <h1 class="display-1">Cabeçalho</h1>
+        </div>
+    </header>
+    <article class="container my-3">
+        <h1 class="mb-4">Título do Artigo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta sapiente incidunt dolores pariatur iure cupiditate aliquam reprehenderit amet. Deleniti odit suscipit officiis, maxime tempore distinctio nobis sunt nesciunt sequi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta sapiente incidunt dolores pariatur iure cupiditate aliquam reprehenderit amet. Deleniti odit suscipit officiis, maxime tempore distinctio nobis sunt nesciunt sequi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta sapiente incidunt dolores pariatur iure cupiditate aliquam reprehenderit amet. Deleniti odit suscipit officiis, maxime tempore distinctio nobis sunt nesciunt sequi.</p>
+        <p class="d-none d-print-block">Fonte: meusite.com.br</p>
+    </article>
+
+    <hr>
+
+    <div class="p-4 col-3 mg-3 bg-primary"></div>
+    <div class="p-4 col-3 mg-3 bg-success invisible"></div>
+    <div class="p-4 col-3 mg-3 bg-warning"></div>
+
+    <hr>
+
+    <div class="container bg-info mt-3">
+        <div class="row">
+            <div class="border p2 col-3 overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed voluptas eius incidunt! Deserunt voluptatibus ipsum repellendus perspiciatis, sed quia, adipisci nemo dignissimos optio iure aliquid laboriosam, ab incidunt asperiores.</div>
+            <div class="border p2 col-3 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed voluptas eius incidunt! Deserunt voluptatibus ipsum repellendus perspiciatis, sed quia, adipisci nemo dignissimos optio iure aliquid laboriosam, ab incidunt asperiores.</div>
+            <div class="border p2 col-3 overflow-visible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed voluptas eius incidunt! Deserunt voluptatibus ipsum repellendus perspiciatis, sed quia, adipisci nemo dignissimos optio iure aliquid laboriosam, ab incidunt asperiores.</div>
+            <div class="border p2 col-3 overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sed voluptas eius incidunt! Deserunt voluptatibus ipsum repellendus perspiciatis, sed quia, adipisci nemo dignissimos optio iure aliquid laboriosam, ab incidunt asperiores.</div>
+        </div>
+    </div>
+
+    <h3><a href="/index.html">Voltar ao Início</a></h3>
+</body>
+</html>
